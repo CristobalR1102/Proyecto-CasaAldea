@@ -1,75 +1,50 @@
 export const menu = [
   {
-    category: "Shawarmas",
+    category: "Burgers",
     items: [
-      { id: 1, name: "Shawarma de Pollo", desc: "Pan árabe, pollo grillado, verduras, salsa tahini", price: 5990, tags: ["popular"] },
-      { id: 2, name: "Shawarma de Carne", desc: "Pan árabe, carne grillada, verduras, salsa ajo", price: 6490, tags: ["popular"] },
-      { id: 3, name: "Shawarma Mixto", desc: "Pollo y carne, verduras, salsas a elección", price: 6990, tags: [] },
-      { id: 4, name: "Shawarma Falafel", desc: "Falafel casero, hoummus, verduras, limón", price: 5490, tags: ["veg"] },
-    ]
+      { id: 1, name: "Única", desc: "180g burger, queso cheddar, BBQ de mamá, chicharrón crocante, cebolla caramelizada, salsa de tocino Casaldea.", price: 8000, tags: [] },
+      { id: 2, name: "Casaldea", desc: "180g burger, queso cheddar, lechuga orgánica, tomate asado, cebolla caramelizada, pickles, salsa de tocino Casaldea, mayo.", price: 10500, tags: ["popular"] },
+      { id: 3, name: "Satisfacción", desc: "2x110g burger, doble queso cheddar, doble chicharrón, salsa secreta y mayo.", price: 10500, tags: [] },
+      { id: 4, name: "Johnny Drama", desc: "180g burger, cheddar, lechuga orgánica, cebolla fresca, pickles y mayo Casaldea.", price: 10500, tags: [] },
+      { id: 5, name: "Estilo Animal 2.0", desc: "180g burger, cheddar, chicharrón, costillar, cebolla caramelizada, BBQ de mamá, pickle y salsa secreta.", price: 10500, tags: [] },
+      { id: 6, name: "La Madre de Stifler", desc: "2x110g burger, doble queso cheddar, chicharrón, BBQ de mamá, pickles y salsa secreta.", price: 10500, tags: [] },
+      { id: 7, name: "Milf", desc: "⚠️ Solo 3 unidades diarias — 180g burger, queso cheddar, cecinabushi, mantequilla ahumada, salsa de yema de huevo.", price: 11500, tags: ["popular"] },
+      { id: 8, name: "Cheese Burger", desc: "180g burger, doble queso cheddar.", price: 6000, tags: [] },
+      { id: 9, name: "Veggie Burger", desc: "180g porotos negros, tomate asado, queso cheddar, lechuga orgánica, cebolla caramelizada, pickles, BBQ de mamá, mayo.", price: 10500, tags: ["veg"] },
+      { id: 10, name: "Clásica", desc: "180g burger, queso cheddar, lechuga orgánica, tomate, mayo.", price: 8500, tags: [] },
+    ],
   },
   {
-    category: "Shawarma al Plato",
+    category: "Promociones",
     items: [
-      { id: 5, name: "Plato de Pollo", desc: "Pollo grillado, arroz árabe, ensalada, pan", price: 8990, tags: [] },
-      { id: 6, name: "Plato de Carne", desc: "Carne grillada, arroz árabe, ensalada, pan", price: 9490, tags: ["popular"] },
-      { id: 7, name: "Plato Mixto", desc: "Pollo y carne, arroz árabe, ensalada, pan", price: 9990, tags: [] },
-    ]
+      { id: 11, name: "Combo Cheese", desc: "2 Cheeseburger + 2 Bebidas.", price: 13000, tags: [] },
+      { id: 12, name: "Combo Aldea", desc: "2 Casaldea + 2 Bebidas.", price: 18000, tags: [] },
+      { id: 13, name: "Combo Única", desc: "2 Únicas + 2 Bebidas.", price: 16000, tags: [] },
+    ],
   },
   {
-    category: "Ensaladas",
+    category: "Otros Pedidos",
     items: [
-      { id: 8, name: "Ensalada Árabe", desc: "Tomate, pepino, perejil, limón, aceite de oliva", price: 3490, tags: ["veg"] },
-      { id: 9, name: "Ensalada Tabule", desc: "Trigo, perejil, tomate, menta, limón", price: 3990, tags: ["veg"] },
-      { id: 10, name: "Ensalada Fattoush", desc: "Verduras frescas, pan árabe tostado, aderezo", price: 3990, tags: ["veg"] },
-    ]
+      { id: 14, name: "Papas Fritas Rústicas", desc: "Papas fritas rústicas.", price: 6500, tags: [] },
+      { id: 15, name: "Supremas Casaldea", desc: "Papas fritas rústicas con salsa cheddar, tocino crocante, cebolla caramelizada y salsa de tocino.", price: 8500, tags: ["popular"] },
+      { id: 16, name: "Papas Rústicas Cheddar", desc: "Papas fritas con salsa de queso cheddar.", price: 7500, tags: [] },
+      { id: 17, name: "Costillar Casaldea", desc: "Costillar de cerdo cocido y terminado en la plancha con papas rústicas, BBQ de mamá y salsa secreta Casaldea.", price: 12000, tags: [] },
+    ],
   },
   {
-    category: "Cremas y Salsas",
+    category: "Niños",
     items: [
-      { id: 11, name: "Hoummus", desc: "Crema de garbanzos, aceite de oliva, pimentón", price: 2990, tags: ["veg"] },
-      { id: 12, name: "Toum", desc: "Salsa de ajo estilo libanés", price: 1490, tags: ["veg"] },
-      { id: 13, name: "Tahini", desc: "Crema de sésamo, limón", price: 1490, tags: ["veg"] },
-      { id: 14, name: "Mutabal", desc: "Crema de berenjena ahumada, tahini", price: 2990, tags: ["veg"] },
-    ]
+      { id: 18, name: "Menú Burger", desc: "110g burger, ketchup, queso cheddar, papas fritas.", price: 6000, tags: [] },
+    ],
   },
   {
-    category: "Hojas de Parra",
+    category: "Extras",
     items: [
-      { id: 15, name: "Hojas de Parra", desc: "Rellenas de arroz, carne molida y especias árabes", price: 4990, tags: [] },
-      { id: 16, name: "Hojas de Parra Veganas", desc: "Rellenas de arroz, verduras y especias", price: 4490, tags: ["veg"] },
-    ]
+      { id: 19, name: "Extra Chicharrón", desc: "", price: 1000, tags: [] },
+      { id: 20, name: "Extra Burger", desc: "", price: 3000, tags: [] },
+      { id: 21, name: "Extra Papas Fritas", desc: "", price: 2000, tags: [] },
+    ],
   },
-  {
-    category: "Kibbes",
-    items: [
-      { id: 17, name: "Kibbe Frito", desc: "Croqueta de trigo rellena de carne molida y especias", price: 3990, tags: [] },
-      { id: 18, name: "Kibbe al Horno", desc: "Kibbe horneado, más ligero y suave", price: 3990, tags: [] },
-      { id: 19, name: "Kibbe Crudo", desc: "Kibbe tradicional servido crudo al estilo libanés", price: 4490, tags: [] },
-    ]
-  },
-  {
-    category: "Falafel",
-    items: [
-      { id: 20, name: "Falafel (6 unidades)", desc: "Croquetas de garbanzo fritas, servidas con tahini", price: 3990, tags: ["veg", "popular"] },
-      { id: 21, name: "Falafel (12 unidades)", desc: "Porción grande, ideal para compartir", price: 6990, tags: ["veg"] },
-    ]
-  },
-  {
-    category: "Tabla Mix Bazzi",
-    items: [
-      { id: 22, name: "Tabla Mix Chica", desc: "Selección de entradas árabes para 2 personas", price: 9990, tags: ["popular"] },
-      { id: 23, name: "Tabla Mix Grande", desc: "Selección completa de entradas árabes para 4 personas", price: 17990, tags: [] },
-    ]
-  },
-  {
-    category: "Papas Fritas",
-    items: [
-      { id: 24, name: "Papas Fritas", desc: "Porción de papas fritas", price: 2490, tags: [] },
-      { id: 25, name: "Papas con Toum", desc: "Papas fritas con salsa de ajo", price: 2990, tags: [] },
-      { id: 26, name: "Papas con Tahini", desc: "Papas fritas con crema de sésamo", price: 2990, tags: [] },
-    ]
-  }
 ]
 
 export const WHATSAPP_NUMBER = "56930277317"
