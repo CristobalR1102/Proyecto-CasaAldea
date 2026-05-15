@@ -101,7 +101,7 @@ export default function App() {
           </div>
         </div>
       } />
-      <Route path="/admin" element={<Admin />} />
+      <Route path="/gestion-casaaldea" element={<Admin />} />
     </Routes>
   )
 }
